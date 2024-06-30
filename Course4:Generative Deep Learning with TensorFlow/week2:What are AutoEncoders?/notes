@@ -1,1 +1,21 @@
+AutoEncoders Inroduction
+- NN capable of learning dense representation of data without supervision( unlabelled training data)
+- useful for dimentionality reduction and visualization 
+- can be used to geenrate new data that resembles input data
+- learn efficient ways to represent data 
+- An autoencoder is a special type of neural network that is trained to copy its input to its output.
+  For example, given an image of a handwritten digit, an autoencoder first encodes the image into a lower dimensional latent representation,
+   then decodes the latent representation back to an image. 
+- An autoencoder learns to compress the data while minimizing the reconstruction error.
+- in practice AutoEncoders copy input to output, and efficient representation of inout data
+
+First Encoder:
+- 23, 35, 47, 50, 14
+- 4, 9, 16, 25, 36, 49, 64, 81, 100, 121
+- In this example AutoEnoder learns latent representaion of data that is numbers are squares of number so easy to remember second sequence
+
+- In AutoEncoder no of neurons in output layer should be same as input neurons.
+- 
+
+
 
