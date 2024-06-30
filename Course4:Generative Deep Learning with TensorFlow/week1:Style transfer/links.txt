@@ -1,1 +1,7 @@
 contains relevant links 
+A Neural Algorithm of Artistic Style: https://ar5iv.labs.arxiv.org/html/1508.06576
+paper implimentation links - https://github.com/harjyotbagga/neural-style-transfer/tree/main 
+                  https://github.com/vidit2011998/neuralstyletransfer/blob/master/main.py
+                  https://github.com/SwordHolderSH/neural-style-pytorch/blob/master/neural_style.py
+                  https://github.com/superb20/Image-Style-Transfer-Using-Convolutional-Neural-Networks/blob/main/codes/main.py
+                  https://github.com/gordicaleksa/pytorch-neural-style-transfer/blob/master/neural_style_transfer.py
