@@ -15,7 +15,11 @@ First Encoder:
 - In this example AutoEnoder learns latent representaion of data that is numbers are squares of number so easy to remember second sequence
 
 - In AutoEncoder no of neurons in output layer should be same as input neurons.
+
+Deep AutoEncoders:(encoder, the decoder can also have multiple layers)
+- in order to achieve encoding and decoding for more complex images, a stacked auto encoder architecture can be used 
 - 
+
 
 
 
