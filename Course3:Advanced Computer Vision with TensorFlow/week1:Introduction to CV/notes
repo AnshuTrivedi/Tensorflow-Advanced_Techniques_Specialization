@@ -1,1 +1,28 @@
+Learning Objectives
+- Distinguish between object localization and object detection
+- Distinguish between object detection and image segmentation
+- Distinguish between semantic segmentation and instance segmentation
+- Explain what is transfer learning and why it's used
+- Describe design options when using transfer learning
+- Implement object localization with a CNN
+- Implement an image classifier with transfer learning
+
+
+multi class classification - Each instance is assigned to one and only one class.
+multilevel classification - Each instance can be assigned to multiple classes simultaneously. each instance can belong to multiple classes.
+
+Object localization - bounding box indicating where object is in the image 
+Object detection models-  classify all objects present in the image with confidence scores, and it predicts that bounding boxes as well. 
+- Combining multi-label classification and object localization gives you object detecton.
+- Popular algorithms for object detection are R-CNN,(R for region),Faster-RCNN, YOLO(you only lock once) and SSD(single shot detector) 
+
+Image segmentaion - 
+ - Instead of locating an object within a rectangular bounding box, segmentation instead figures out the pixels that make up that object.
+ - There are two types of image segmentation, semantic segmentation and instance segmentation. 
+ - With semantic segmentation, all objects of the same type form a single classification.
+ - For instance segmentation, each instance of a person is identified as a separate segment.
+   In semantic segmentation, all objects of the same class are regarded as one segment. Each pixel is usually associated with a class.
+ - In instance segmentation, multiple objects of the same class are regarded as separate segments
+- Popular machine learning models that solve semantic segmentation are: Fully Convolutional Neural Networks, U-net, DeepLab
+- One popular algorithm that solves instance segmentation is Mask R-CNN.
 
