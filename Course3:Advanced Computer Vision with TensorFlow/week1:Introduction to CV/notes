@@ -25,3 +25,29 @@ Image segmentaion -
  - In instance segmentation, multiple objects of the same class are regarded as separate segments
 - Popular machine learning models that solve semantic segmentation are: Fully Convolutional Neural Networks, U-net, DeepLab
 - One popular algorithm that solves instance segmentation is Mask R-CNN.
+
+Why Transfer Learning?
+- The idea of reusing learning from previously trained models on different but relative data sets is the basis of transfer learning.
+- pre trained model reused for downstream tasks
+- reuse weights and layers 
+- eg- use of pretrained MobileV2 for catvs dog clasification
+- First, it saved time and cost. Deep learning and in particular CNN's, need a lot of data and need a lot of processing time to figure out and learn the correct filters for that data.
+  By using pre-learned parts of the network, you can take advantage of this and stand on the shoulders of giants while saving yourself a lot of time, effort and money.
+- The second is improved performance with smaller datasets. The pre-trained networks might have been trained on millions of data items already, so not only are you saving time and 
+  effort, your architecture can take advantage of the features learned across such a huge datasets, and few people have the time and resources to train at that kind of scale.
+  Your particular task may also not have nearly as many training examples so it might be impossible to train a good model from randomly initialized weights, 
+   so why not take advantage of the pre-trained weights? 
+
+Options in Transfer Learning:
+ -  to freeze the weights that have been transferred over from the pre-trained model.
+ -  The other option is to retrain entirely without freezing the convolutions but to use the transferred weights as the starting points.
+    Given that we know that they already work well in the other model, and they might be detecting generally useful features, but we want to tweak the weights
+   even further to tailor them to our specific dataset and task. 
+- If we were starting from scratch with randomly initialized filters, it might take a long time to train them to be as effective as the learned ones,
+  and we may never even get ones that are as good because if we have less data than the original model was trained on, that's just the way it would work out. 
+  Our dataset usually isn't going to be as large as the datasets used on a pre trained model, which have been trained with millions of images.
+
+
+
+
+
