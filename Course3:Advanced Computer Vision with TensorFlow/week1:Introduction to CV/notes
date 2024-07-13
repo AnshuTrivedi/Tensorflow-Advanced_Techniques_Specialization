@@ -25,4 +25,3 @@ Image segmentaion -
  - In instance segmentation, multiple objects of the same class are regarded as separate segments
 - Popular machine learning models that solve semantic segmentation are: Fully Convolutional Neural Networks, U-net, DeepLab
 - One popular algorithm that solves instance segmentation is Mask R-CNN.
-
